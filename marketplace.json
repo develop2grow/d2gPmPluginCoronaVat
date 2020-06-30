@@ -1,0 +1,8 @@
+{
+    "marketplaceName"   : {"de":"Corona VAT Plugin","en":"Corona VAT Plugin"},
+    "license"           : "develop2grow",
+    "price"             : 0,
+    "shortDescription"  : {"de":"Plugin zur Umsetung des Best Practices zur Mehrwertsteuer Anpassung.","en":"Plugin for implementing the best practice for VAT adjustment."},
+    "categories"        : ["4091"],
+    "keywords"          : ["Corona", "VAT", "Umsatzsteuer", "Mehrwertsteuer", "Widget", "Plugin"]
+}

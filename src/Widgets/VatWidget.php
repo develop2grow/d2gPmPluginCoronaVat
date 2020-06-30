@@ -21,7 +21,7 @@ class VatWidget extends BaseWidget
     {
         return WidgetDataFactory::make("d2gPmPluginCoronaVat::vatWidget")
             ->withLabel("Widget.vatWidgetLabel")
-            ->withPreviewImageUrl("/images/widgets/vatWidget.svg")
+            ->withPreviewImageUrl("/images/CoronaVAT.svg")
             ->withType(WidgetTypes::DEFAULT)
             ->withCategory(WidgetCategories::TEXT)
             ->withPosition(900)
