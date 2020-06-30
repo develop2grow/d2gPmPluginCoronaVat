@@ -1,0 +1,30 @@
+{
+  "serviceProvider": "d2gPmPluginCoronaVat\\Providers\\PluginServiceProvider",
+  "version": "1.0.0",
+  "name": "d2gPmPluginCoronaVat",
+  "marketplaceName": { "de": "Ceres Corona VAT 2020 Plugin", "en": "Ceres Corona VAT Plugin" },
+  "description": "Ceres Corona VAT Plugin developed by develop2grow.",
+  "author": "develop2grow UG",
+  "license": "Copyright by develop2grow UG",
+  "pluginIcon": "icon_plugin_xs.png",
+  "price": 0.0,
+  "shortDescription": {
+    "de": "Ceres Corona VAT Plugin Widget",
+    "en": "Ceres Corona VAT Plugin Widget"
+  },
+  "authorIcon": "icon_author_xs.png",
+  "email": "support@develop2grow.com",
+  "phone": "+49 231 22 61 31 80",
+  "categories": ["4091"],
+  "keywords": ["plentymarkets", "plugins", "widget", "ceres"],
+  "type": "widget",
+  "require": ["Ceres", "IO"],
+  "namespace": "d2gPmPluginCoronaVat",
+  "dataProviders": [
+    {
+      "key"           :"d2gPmPluginCoronaVat\\Containers\\VatWidgetContainer",
+      "name"          :"VatWidgetContainer",
+      "description"   :"Display the Vat Widget Container"
+    }
+  ]
+}
